@@ -47,7 +47,7 @@ header.js-is-sticky {
   margin: 15px;
   padding: 10px;
   border: white 1px solid;
-  min-width: 300px;
+  /* min-width: 300px; */
 }
 .container aside .signup {
 
