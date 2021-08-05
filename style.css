@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+}
+.mothership {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+h1 {
+  color: white;
+}
+p {
+  color: white;
+}
+a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+header {
+  background-image: url(imgs/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 50px;
+  text-align: right;
+  /* transition: 0.5s; */
+}
+
+/*
+header.js-is-sticky {
+  background: rgba(0, 0, 0, 0.5);
+}
+*/
+.wrapper {
+  display: flex;
+}
+.container section {
+  width: 100%;
+  margin: 15px;
+  padding: 10px;
+  border: white 1px solid
+}
+.container aside {
+  width: 30%;
+  margin: 15px;
+  padding: 10px;
+  border: white 1px solid;
+  min-width: 300px;
+}
+.container aside .signup {
+
+}
+footer {
+  height: 20px;
+  background: #ccc;
+}
